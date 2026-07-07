@@ -3,7 +3,7 @@ int l1=2;
   int l3=4;
   int l4=5;
   int l5=6;
-void setup()
+void setup() //chaser light , running led effect
 {
   pinMode(l1, OUTPUT);
   pinMode(l2, OUTPUT);
