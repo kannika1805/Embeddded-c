@@ -16,12 +16,7 @@ void setup() //chaser light , running led effect
 
 void loop ()
 {
-  digitalWrite(l1, HIGH);
-  digitalWrite(l2, LOW);
-  digitalWrite(l3, LOW);
-  digitalWrite(l4, LOW);
-  digitalWrite(l5, LOW);
-  delay(1000);
+  
    digitalWrite(l1, HIGH);
   digitalWrite(l2, LOW);
   digitalWrite(l3, LOW);
