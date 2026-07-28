@@ -1,9 +1,12 @@
+int laser=3;
 int ldr=A0;
 int buzzer=7;
 void setup() {
 Serial.begin(9600);
 pinMode(ldr, INPUT);  
-pinMode(buzzer,OUTPUT);// put your setup code here, to run once:
+pinMode(buzzer,OUTPUT);
+digitalWrite(laser, HIGH);
+  // put your setup code here, to run once:
 
 }
 
